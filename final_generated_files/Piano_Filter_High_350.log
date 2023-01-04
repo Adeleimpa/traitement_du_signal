@@ -1,0 +1,107 @@
+Fourier v1.0 
+
+You have entered 7 arguments:
+./fourier
+P
+5
+44100
+2
+350
+0
+Filter = 2
+Duration: 5sec - Echantillonage: 44100Hz - Filter: High - Cutoff: 350Hz
+RIFF
+Wave::read: Le nombre d'octets restant � lire est : 26708
+WAVE
+fmt 
+Wave::read: chunk_size vaut : 16
+Wave::read: Le format est (1=PCM) : 1
+Wave::read: Le nombre de canaux est : 1
+Wave::read: La fr�quence d'�chantillonge est : 11025
+Wave::read: Le nombre d'octets par seconde est : 11025
+Wave::read: Le nombre d'octets par �chantillon est : 1
+Wave::read: Le nombre de bits par donn�e est : 8
+data
+Wave::read: Le nombre d'octets restant � lire est : 26672
+Wave::write(char* fileName)
+file_size = 26708
+Fin �criture du header
+fwrite (data8, 
+Fin �criture des datas
+fichier Piano_Filter_High_cutoff_350Hz_0Hz_echant_11025Hz_2sec.wav created.
+Appel de la méthode TFD
+progression: 0/26
+progression: 1/26
+progression: 2/26
+progression: 3/26
+progression: 4/26
+progression: 5/26
+progression: 6/26
+progression: 7/26
+progression: 8/26
+progression: 9/26
+progression: 10/26
+progression: 11/26
+progression: 12/26
+progression: 13/26
+progression: 14/26
+progression: 15/26
+progression: 16/26
+progression: 17/26
+progression: 18/26
+progression: 19/26
+progression: 20/26
+progression: 21/26
+progression: 22/26
+progression: 23/26
+progression: 24/26
+progression: 25/26
+progression: 26/26
+Wave::write(char* fileName)
+file_size = 26708
+Fin �criture du header
+fwrite (data8, 
+Fin �criture des datas
+fichier TFD_Piano_High_cutoff_350Hz_0Hz_echant_11025Hz_2sec.wav created.
+Filtering...
+Wave::write(char* fileName)
+file_size = 26708
+Fin �criture du header
+fwrite (data8, 
+Fin �criture des datas
+fichier Filtered_TFD_Piano_High_cutoff_350Hz_0Hz_echant_11025Hz_2sec.wav created.
+Appel de la méthode TFI
+progression: 0/26
+progression: 1/26
+progression: 2/26
+progression: 3/26
+progression: 4/26
+progression: 5/26
+progression: 6/26
+progression: 7/26
+progression: 8/26
+progression: 9/26
+progression: 10/26
+progression: 11/26
+progression: 12/26
+progression: 13/26
+progression: 14/26
+progression: 15/26
+progression: 16/26
+progression: 17/26
+progression: 18/26
+progression: 19/26
+progression: 20/26
+progression: 21/26
+progression: 22/26
+progression: 23/26
+progression: 24/26
+progression: 25/26
+progression: 26/26
+Wave::write(char* fileName)
+file_size = 26708
+Fin �criture du header
+fwrite (data8, 
+Fin �criture des datas
+fichier TFI_Piano_High_cutoff_350Hz_0Hz_echant_11025Hz_2sec.wav created.
+Temps de calcul: 13 sec
